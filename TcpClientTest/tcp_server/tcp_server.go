@@ -7,6 +7,7 @@ import (
 	"strings"
 )
 
+//作为服务器，用来接收客户端发来的信息
 func main() {
 	fmt.Println("Launching server...")
 	// listen on all interfaces
